@@ -50,15 +50,6 @@ return {
 				}, {
 					{ name = "buffer" },
 				}),
-				formatting = {
-					format = lspkind.cmp_format({
-						mode = "symbol",
-						maxwidth = 100,
-						ellipsis_char = "...",
-						show_labelDetails = true,
-						before = require("tailwind-tools.cmp").lspkind_format,
-					}),
-				},
 			})
 		end,
 	},
