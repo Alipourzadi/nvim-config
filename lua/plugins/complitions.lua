@@ -11,13 +11,8 @@ return {
 	},
 	{
 		"hrsh7th/nvim-cmp",
-		dependencies = {
-			"luckasRanarison/tailwind-tools.nvim",
-			"onsails/lspkind-nvim",
-		},
 		config = function()
 			local cmp = require("cmp")
-			local lspkind = require("lspkind")
 			require("luasnip.loaders.from_vscode").lazy_load()
 			cmp.setup({
 				snippet = {
